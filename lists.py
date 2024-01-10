@@ -1,24 +1,51 @@
 list1=[1,7,3,'a','x','p',4.6,0.2,3.7]
+print(list1)
+
 list1.append(2.3)
-list1
+print("list1.append(2.3)")
+print(f"Current list: {list1}")
+
 list1.insert(2,0.9)
-list1
+print("list1.insert(2,0.9)")
+print(f"Current list: {list1}")
+
 list1.pop()
-list1
+print("list1.pop()")
+print(f"Current list: {list1}")
+
 list1.remove('x')
-list1
+print("list1.remove('x')")
+print(f"Current list: {list1}")
+
 list1.pop(4)
-list1
-len(list1)
+print("list1.pop(4)")
+print(f"Current list: {list1}")
+
+print("len(list1)")
+print(f"Length of current list = {len(list1)}")
 
 list2=[1,5,3,9,0]
+
 list2.sort()
-list2
-list2.index(3)
+print("list2.sort()")
+print(f"Current list: {list2}")
+
+
+print("list2.index(3)")
+print(f"Index: {list2.index(3)}")
+
 list2.append(3)
+print("list2.append(3)")
+print(f"Current list: {list2}")
+
 list2.count(3)
+print("list2.count(3)")
+print(f"Current list: {list2}")
+
 list2.sort(reverse=True)
-list2
+print("list2.sort(reverse=True)")
+print(f"Current list: {list2}")
+
 
 # Common built-in functions in Python for lists.
 #1. append(): This function is used to add an element to the list at the end.
