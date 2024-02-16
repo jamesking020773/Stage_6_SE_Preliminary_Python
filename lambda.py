@@ -7,7 +7,6 @@ people = [
 # lamdba replaces the example dictionary sort function below with a single line call
 # def f(person):
 #     return person["name"]
-
 # people.sort(key=f)
 
 people.sort(key=lambda person: person["name"])
